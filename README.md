@@ -19,9 +19,9 @@ $ git clone  git@github.com:dunogueiraMusa/pocpagarme.git
 ```
 
 ### Como foi feito
+#### Desenvolvido uma API Rest em Flask de consultas de usuários;
 
 ```bash
-# Desenvolvido uma API Rest em Flask de consultas de usuários;
 $ Get/users retornará os users contidos no "banco de dados"
 $ POST deverá ser preenchido em formado JSON apenas com o nome, caso quiser colocar o ID será inserido também.
 $ PUT Ao inserir Nome e ID, subistituirá o ID atual. 
