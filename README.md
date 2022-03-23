@@ -17,7 +17,7 @@ $ git clone  git@github.com:dunogueiraMusa/pocpagarme.git
 # build docker image
 # docker-compose up
 ```
-
+```bash
 ### Como foi feito
 #### Desenvolvido uma API Rest em Flask de consultas de usuários;
 
@@ -29,7 +29,7 @@ $ Flask escolhido por se tratar de ser microframework, que é mais leve, poderos
 $ A imagem docker foi desenvolvida junto do docker-compose de acordo com as configurações:
 # Dockerfile 
 $ Dockerfile foi realizado com FROM Python:3-alpine por ser mais leve, praticamente 1/3 do peso das demais imagens. 
-
+```
 ```bash
 $ Get/users retornará os users contidos no "banco de dados"
 $ POST deverá ser preenchido em formado JSON apenas com o nome, caso quiser colocar o ID será inserido também.
