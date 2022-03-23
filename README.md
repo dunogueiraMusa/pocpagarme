@@ -17,17 +17,19 @@ $ git clone  git@github.com:dunogueiraMusa/pocpagarme.git
 # build docker image
 # docker-compose up
 ```
-```bash
+
 ### Como foi feito
 #### Desenvolvido uma API Rest em Flask de consultas de usuários;
 
 ### Porque Flask?
+```bash
 $ Flask escolhido por se tratar de ser microframework, que é mais leve, poderoso, simples e grande rapidez, focado em aplicações web.
-
+```
 
 ## Uma API básica e simples.
+```bash
 $ A imagem docker foi desenvolvida junto do docker-compose de acordo com as configurações:
-# Dockerfile 
+$ Dockerfile 
 $ Dockerfile foi realizado com FROM Python:3-alpine por ser mais leve, praticamente 1/3 do peso das demais imagens. 
 ```
 ```bash
