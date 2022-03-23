@@ -32,7 +32,9 @@ $ A imagem docker foi desenvolvida junto do docker-compose de acordo com as conf
 $ Dockerfile 
 $ Dockerfile foi realizado com FROM Python:3-alpine por ser mais leve, praticamente 1/3 do peso das demais imagens. 
 ```
+## Como utilizar
 ```bash
+$ Basta subir o docker e consultar em alguma plataforma como Insomnia, Postman ou alguma outra de gosto.
 $ Get/users retornará os users contidos no "banco de dados"
 $ POST deverá ser preenchido em formado JSON apenas com o nome, caso quiser colocar o ID será inserido também.
 $ PUT Ao inserir Nome e ID, subistituirá o ID atual. 
